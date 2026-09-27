@@ -1,0 +1,20 @@
+DROP TABLE IF EXISTS public_event_registrations;
+DROP TABLE IF EXISTS public_event_halls;
+DROP TABLE IF EXISTS public_event_instructors;
+DROP TABLE IF EXISTS public_event_images;
+DROP TABLE IF EXISTS public_events;
+DROP TABLE IF EXISTS term_auto_reservations;
+DROP TABLE IF EXISTS user_class_notes;
+DROP TABLE IF EXISTS class_halls;
+DROP TABLE IF EXISTS content_items;
+DROP TABLE IF EXISTS bookings;
+DROP TABLE IF EXISTS class_occurrences;
+DROP TABLE IF EXISTS classes;
+DROP TABLE IF EXISTS event_types;
+DROP TABLE IF EXISTS halls;
+DROP TABLE IF EXISTS user_term_tokens;
+DROP TABLE IF EXISTS token_transactions;
+DROP TABLE IF EXISTS term_breaks;
+DROP TABLE IF EXISTS terms;
+DROP TABLE IF EXISTS users;
+

@@ -1,0 +1,29 @@
+{
+  "name": "shaolin-platform",
+  "version": "1.0.0",
+  "description": "Shaolin Academy - Full-stack Martial Arts Dojo Management & Portal System",
+  "private": true,
+  "scripts": {
+    "dev": "bash ./scripts/dev.sh",
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:backend": "cd backend && go run ./cmd/api/main.go",
+    "build": "bash ./scripts/build.sh",
+    "build:frontend": "cd frontend && npm run build",
+    "build:backend": "cd backend && go build -o apiServer ./cmd/api/main.go",
+    "test": "bash ./scripts/test.sh",
+    "test:backend": "cd backend && go test ./...",
+    "seed": "bash ./scripts/seed.sh",
+    "clean": "make clean"
+  },
+  "keywords": [
+    "shaolin",
+    "martial-arts",
+    "go",
+    "nextjs",
+    "react",
+    "sqlite",
+    "tailwind"
+  ],
+  "author": "EchoSH Labs",
+  "license": "MIT"
+}

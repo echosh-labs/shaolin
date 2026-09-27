@@ -1,0 +1,71 @@
+# Binaries and compiled outputs
+bin/
+*.exe
+apiServer
+backend/apiServer
+server
+backend/server
+explorer
+backend/cmd/explorer/explorer
+shaolin-scraper
+scraper/shaolin-scraper
+dist/
+out/
+build/
+*.o
+*.a
+*.so
+
+# Large media files
+*.mp4
+*.m4a
+*.mov
+*.mp3
+*.wav
+*.flac
+*.Zone.Identifier
+
+# Next.js and frontend build artifacts
+.next/
+frontend/.next/
+frontend/out/
+*.tsbuildinfo
+next-env.d.ts
+
+# Node dependencies
+node_modules/
+frontend/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Database blobs & persistent storage
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.db-wal
+*.db-shm
+.data/
+data/
+backend/shaolin.db
+
+# Environment variables and credentials
+.env
+.env*.local
+*.key.json
+.service-account.json
+
+# Logs & temp files
+*.log
+logs/
+.cache/
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
